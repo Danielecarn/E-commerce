@@ -1,0 +1,13 @@
+.container-home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ 
+}
+.content-home  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    list-style: none;
+    width: 100%;
+}
